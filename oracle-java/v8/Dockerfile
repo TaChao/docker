@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER ClouDesire <dev@cloudesire.com>
+MAINTAINER killonexx <killonexx@gmail.com>
 
 ENV JAVA_VER 8
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle

@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER killonexx@gmail.com
+MAINTAINER killonexx <killonexx@gmail.com>
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && echo 'APT::Install-Suggests 0;' >> /etc/apt/apt.conf.d/01norecommends \
