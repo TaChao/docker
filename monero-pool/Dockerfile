@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
 ENV VERSION 1.3.5
+ENV TIME_ZONE Asia/Shanghai
 
 RUN apt update && \
     apt install git curl libboost-all-dev libssl-dev -y && \
